@@ -338,7 +338,7 @@ padding-top: 50px;
 }
 
 .header3 {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background-color: whitesmoke
 }
@@ -432,11 +432,7 @@ padding-top: 50px;
 .slikaj1 {
     padding-top: 100px;
 }
-.header4 {
-    height: 100vh;
-    width: 100%;
-    background-color: red;
-}
+
 @media (max-width: 1400px)
 {
     .dugmad {
@@ -464,7 +460,7 @@ padding-top: 50px;
     }
 }
 
-    }
+    
 
     @media (max-width: 1200px)
     {
@@ -494,15 +490,170 @@ padding-top: 50px;
     .header1 {
         height: 300vh;
     }
+.zasides{
+    display: flex;
+    flex-direction: column;
+}
+.header3 {
+    height: 270vh;  
+}
+}
 
+.headerz1 {
+    height: 100vh;
+    width:100%;
+    background-color: white;
+}
+.jedandeo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.nekipar {
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 120px;
+    padding-bottom: 25px;
+}
+.malipar {
+    color: gray;
+    padding-bottom: 50px;
+    line-height: 25px;
+    font-size: 15px;
+}
+.veliklaptop {
+    width: 700px;
+}
+@media (max-width: 1500px)
+{.veliklaptop {
+    width: 600px;
+}}
+@media (max-width: 1300px)
+{.veliklaptop {
+    width: 500px;
+}}
+@media (max-width: 1100px)
+{.veliklaptop {
+    width: 400px;
+}}
+
+.blodz {
+    display: none;
+    text-align: center;
 }
 @media (max-width: 992px)
 {
+    .headerz1 {
+        height: 150vh;
+    }
+    .blod {
+        display: none;
+    }
+    .blodz{
+        display: inline;
+    }
+}
+.maleizmene {
+    height: 75vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+@media (max-width: 1300px)
+{
+    .maleizmene {
+        height: 100vh;
+    }
+}
+@media (max-width: 992px)
+{
+    .maleizmene {
+        height: 200vh;
+    }
+}
 
-.zasides {
-    flex-direction: column;
-    height: 200vh;
+.tezakheader {
+    height: 150vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    
 }
-.header3 {
-    height: 270vh;
+.priceplan {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 125px;
 }
+.loremopet {
+    color: gray;
+    line-height: 25px;
+    text-align: center;
+}
+.tabele9 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+    .tejbil {
+        height: 550px;
+        width: 360px;
+        background-color:gray;
+        border-radius: 5px; 
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .experiment {
+        width: 80%;
+        
+        
+    }
+
+    #blockk {
+        display: block;
+    }
+    .basic {
+        height: 100px;
+        background-color: purple;
+    }
+    .space {
+        height: 200px;
+        background-color: red;
+    }
+    .getstartedz {
+        height: 210px;
+        background-color: green;
+        width: 280px;
+        align-self: center;
+        text-align: center;
+    }
+    .realbasic {
+        text-align: center;
+        padding-top: 40px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .gbspace {
+        text-align: center;
+        padding-top: 25px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .donda {
+        padding-top: 30px;
+    }
+    .novac {
+        font-size: 70px;
+        font-weight: bold;
+        display: inline-block;
+    }
+    .dolar {
+        font-size: 30px;
+        line-height: 50px;
+        
+    }
+    .per1 {
+        display: inline-block ;
+    }
